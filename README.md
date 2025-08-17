@@ -1,1 +1,1 @@
-Deployment link: https://github.com/Hanhkim11/Azzle-ProjectCapstone/deployments/github-pages
+https://hanhkim11.github.io/Azzle-ProjectCapstone/
