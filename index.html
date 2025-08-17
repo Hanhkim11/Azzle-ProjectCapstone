@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azzel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./src/output.css" />
+</head>
+
+<body>
+
+  <main>
+    <!-- AI-Powered -->
+    <section class="py-20 mx-8 animate__animated animate__fadeInUp wow md:px-0 lg:px-0">
+      <div class="bg-black rounded-[50px] flex flex-col lg:flex-row justify-center">
+        <!-- Image -->
+        <div class="lg:w-[40%] relative">
+          <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[120px] h-[120px]">
+            <div class="absolute w-full h-full rounded-full bg-[#4b5563] animate-ping-slow"></div>
+            <div
+              class="relative w-full h-full border-[3px] border-black rounded-full flex justify-center items-center backdrop-blur-[3px] cursor-pointer hover:bg-[#fe330a] transition-all duration-300 group">
+              <a class="text-xl font-bold text-black transition-all duration-300 cursor-pointer group-hover:text-white"
+                href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"> Play</a>
+            </div>
+          </div>
+
+          <img src="./src/img/funfact-image.jpg" class="w-full object-cover rounded-[50px] lg:h-full h-[320px]" />
+        </div>
+        <!-- Text -->
+        <div class="lg:w-[60%] text-white px-10 md:py-20 py-14">
+          <div class="pb-[60px] border-b border-[#191919]">
+            <h1 class="text-7xl sm:tex-[3.75rem] font-bold md:leading-[68px] md:mb-5 mb-6">
+              AI-powered that streamline tasks
+            </h1>
+            <p class="text-base font-medium md:text-xl">
+              As your business grows or your AI SaaS needs change, you
+              <br />can easily adjust your subscription level to match those
+              needs. <br />
+              This flexibility ensures that AI remains an asset.
+            </p>
+          </div>
+
+          <div class="sm:flex pt-[60px] sm:gap-[90px] sm:space-y-0 space-y-10 text-center md:text-start">
+            <div class="flex flex-col">
+              <h1 class="text-8xl font-bold text-[#fe330a]">
+                <span class="counter">92</span>%
+              </h1>
+              <p class="text-base font-medium md:text-xl">
+                Customer service inquiries
+              </p>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="text-8xl font-bold text-[#fe330a]">
+                <span class="counter">75</span>%
+              </h1>
+              <p class="text-base font-medium md:text-xl">
+                Using financial institutions
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cost -->
+    <section>
+      <div class="relative">
+        <div class="pt-20 mx-auto md:py-0 md:px-0 lg:px-24">
+          <h1 class="pb-16 mx-auto font-bold text-center animate__animated animate__fadeInUp wow text-7xl">
+            Cost-effectively <br />
+            build any software
+          </h1>
+
+          <div class="flex justify-center mb-8 animate__animated animate__fadeInUp wow md:mb-14">
+            <div class="flex gap-6 border-2 border-black rounded-full">
+              <div id="monthlyBtn" class="px-10 py-4 text-xl text-white bg-black rounded-full cursor-pointer">
+                <span class="font-semibold">Monthly</span>
+              </div>
+              <div id="annuallyBtn" class="px-10 py-4 text-xl text-black bg-white rounded-full cursor-pointer">
+                <span class="font-semibold">Annually</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative mt-12 lg:mt-16 xl:mt-20">
+            <div class="relative z-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div
+                class="px-10 py-10 duration-700 ease-in-out rounded-lg animate__animated animate__flipInY wow wtransition-all bg-bgGray hover:bg-black group">
+                <div class="pb-4 transition-colors duration-700 ease-in-out border-b border-hr group-hover:text-white">
+                  <h1 class="text-3xl font-bold">Beginner</h1>
+                  <p class="text-xl">Up to 10 members</p>
+                </div>
+                <div class="mt-4 mb-8 transition-colors duration-700 ease-in-out group-hover:text-white">
+                  <h1 class="text-5xl font-semibold md:text-7xl md:font-bold">
+                    $<span class="-mr-3 numPrice">25</span>
+                    <span class="text-lg">/Per <span class="monthYear">month</span></span>
+                  </h1>
+                  <p class="mt-4 text-lg">
+                    This is an excellent option for people & small businesses
+                    who are starting out.
+                  </p>
+                </div>
+                <button
+                  class="relative w-full h-16 mt-4 overflow-hidden transition-all duration-700 ease-in-out border-2 border-black rounded-full group-hover:text-white group-hover:border-primaryRed before:absolute before:left-0 before:top-0 before:w-full before:h-0 before:bg-primaryRed before:rounded-full hover:before:h-full before:transition-all before:duration-500">
+                  <span class="relative font-bold text-center">Choose the plan</span>
+                </button>
+              </div>
+
+              <div
+                class="px-10 py-10 transition-all duration-700 ease-in-out rounded-lg animate__animated animate__flipInY wow bg-bgGray hover:bg-black group">
+                <div class="pb-4 transition-colors duration-700 ease-in-out border-b border-hr group-hover:text-white">
+                  <h1 class="text-3xl font-bold">Starter</h1>
+                  <p class="text-xl">Up to 50 members</p>
+                </div>
+                <div class="mt-4 mb-8 transition-colors duration-700 ease-in-out group-hover:text-white">
+                  <h1 class="text-5xl font-semibold md:text-7xl md:font-bold">
+                    $<span class="-mr-3 numPrice">25</span>
+                    <span class="text-lg">/Per <span class="monthYear">month</span></span>
+                  </h1>
+                  <p class="mt-4 text-lg">
+                    This plan is suitable for e-commerce stores as well as
+                    professional blogs.
+                  </p>
+                </div>
+                <button
+                  class="relative w-full h-16 mt-4 overflow-hidden transition-all duration-700 ease-in-out border-2 border-black rounded-full group-hover:text-white group-hover:border-primaryRed before:absolute before:left-0 before:top-0 before:w-full before:h-0 before:bg-primaryRed before:rounded-full hover:before:h-full before:transition-all before:duration-500">
+                  <span class="relative font-bold text-center">Choose the plan</span>
+                </button>
+              </div>
+
+              <div
+                class="px-10 py-10 transition-all duration-700 ease-in-out rounded-lg animate__animated animate__flipInY wow bg-bgGray hover:bg-black group">
+                <div class="pb-4 transition-colors duration-700 ease-in-out border-b border-hr group-hover:text-white">
+                  <h1 class="text-3xl font-bold">Pro</h1>
+                  <p class="text-xl">Up to 100 members</p>
+                </div>
+                <div class="mt-4 mb-8 transition-colors duration-700 ease-in-out group-hover:text-white">
+                  <h1 class="text-5xl font-semibold md:text-7xl md:font-bold">
+                    $<span class="-mr-3 numPrice">25</span>
+                    <span class="text-lg">/Per <span class="monthYear">month</span></span>
+                  </h1>
+                  <p class="mt-4 text-lg">
+                    Ideal for handling complicated projects enterprise-level
+                    projects, and websites.
+                  </p>
+                </div>
+                <button
+                  class="relative w-full h-16 mt-4 overflow-hidden transition-all duration-700 ease-in-out border-2 border-black rounded-full group-hover:text-white group-hover:border-primaryRed before:absolute before:left-0 before:top-0 before:w-full before:h-0 before:bg-primaryRed before:rounded-full hover:before:h-full before:transition-all before:duration-500">
+                  <span class="relative font-bold text-center">Choose the plan</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info -->
+    <section class="mx-20 mt-20 mb-16 animate__animated animate__backInUp md:py-0 md:px-4 lg:my-32">
+      <div class="grid grid-cols-1 gap-16 sm:grid-cols-2">
+        <div class="animate__animated animate__fadeInLeft wow">
+          <h1 class="mb-8 font-bold text-7xl lg:text-7xl">
+            Freely ask us for <br />
+            more information
+          </h1>
+          <p class="mb-8 text-xl">
+            Our AI SaaS solutions can be quickly deployed, enabling users to
+            <br />
+            start benefiting from AI capabilities without lengthy setup and
+            <br />
+            development times in fast-paced industries.
+          </p>
+          <button
+            class="relative h-16 px-6 mt-4 overflow-hidden text-white transition-all duration-700 ease-in-out bg-black border-2 border-transparent rounded-full group-hover:text-white hover:border-primaryRed before:absolute before:left-0 before:top-0 before:w-full before:h-0 before:bg-primaryRed before:rounded-full hover:before:h-full before:transition-all before:duration-500">
+            <span class="relative font-bold text-center">Ask you questions</span>
+          </button>
+        </div>
+        <div class="animate__animated animate__fadeInRight wow">
+          <ul class="space-y-4">
+            <li>
+              <h1 class="flex items-center justify-between text-lg font-bold cursor-pointer lg:text-2xl btnOpenText">
+                How do I start AI SaaS?
+                <i class="text-lg fa-solid fa-plus iconPlus animate-rotate-45"></i>
+              </h1>
+              <p class="block pt-4 text-lg text-gray-800 textQuestion">
+                Go to the our official website and require users to create an
+                <br />
+                account. You'll need to provide some basic information and
+                <br />
+                agree to our terms and conditions.
+              </p>
+              <hr class="mt-4 bg-gray-800" />
+            </li>
+            <li>
+              <h1 class="flex items-center justify-between text-lg font-bold cursor-pointer lg:text-2xl btnOpenText">
+                Can I customize AI SaaS solutions?
+                <i class="text-lg fa-solid fa-plus iconPlus animate-rotate-45"></i>
+              </h1>
+              <p class="hidden py-4 text-lg text-gray-800 border-b border-e-gray-800 textQuestion">
+                Go to the our official website and require users to create an
+                <br />
+                account. You'll need to provide some basic information and
+                <br />
+                agree to our terms and conditions.
+              </p>
+            </li>
+            <li>
+              <h1 class="flex items-center justify-between text-lg font-bold cursor-pointer lg:text-2xl btnOpenText">
+                How can AI benefit my business?
+                <i class="text-lg fa-solid fa-plus iconPlus animate-rotate-45"></i>
+              </h1>
+              <p class="hidden py-4 text-lg text-gray-800 textQuestion">
+                AI can help your business in various ways, such as automating
+                tasks, improving customer experience, and analyzing data to
+                make better decisions.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- feedback -->
+    <div class="relative bg-black pb-28">
+      <section class="container px-5 mx-auto text-white md:py-0 md:px-4 lg:py-5">
+        <h1 class="py-20 mx-auto font-bold text-center animate__animated animate__fadeInUp wow lg:text-7xl">
+          Positive feedback <br />from our users
+        </h1>
+        <div class="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 lg:grid-cols-3">
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInRight wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              “This AI SaaS tool has revolutionized the way we process and
+              analyze data. This is a game-changer for our business.”
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-1.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInRight wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              “It answers immediately, and we've seen a significant reduction
+              in response time. Our customers love it and so do we!”
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-2.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInRight wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              "It is accurate, fast and supports multiple languages support.
+              It is a must for any international business success."
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-3.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInLeft wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              "Security is a top concern for us, and AI SaaS takes it
+              seriously. It's a reassuring layer of protection for our
+              organization."
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-4.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInLeft wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              "We were concerned about integrating their APIs were well
+              documented, and their support team was super cool."
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-5.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 border border-gray-800 rounded-lg animate__animated animate__fadeInLeft wow">
+            <div class="flex items-center gap-4">
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+              <i class="text-2xl fa-solid fa-star text-primaryRed"></i>
+            </div>
+            <p class="mt-10 text-lg font-semibold">
+              "The return on investment has exceeded our expectations. it's an
+              investment in the future of our business."
+            </p>
+            <div class="flex items-center gap-4 mt-10">
+              <img src="./src/img/testimonial-img-6.jpg" alt="Avatar image" class="rounded-full" />
+              <div>
+                <h1 class="text-xl font-semibold">Max Weber</h1>
+                <p class="mt-1 text-sm">HR Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-black">
+      <div class="mx-auto md:py-0 bg-[#EFEAE3] rounded-t-[2rem] lg:rounded-t-[3rem] relative">
+        <div class="pt-16 pb-16 overflow-hidden">
+          <div
+            class="bg-gradient-to-r from-orange-600 to-orange-700 filter blur-[55px] w-[400px] h-[300px] absolute top-[10] right-5">
+          </div>
+          <!-- <div
+            class="bg-orange-gradient-2 blur-55 absolute -left-[10px] top-[40%] -z-[1] h-[800px] w-[500px] -rotate-[-9.022deg] rounded-[360px]">
+          </div> -->
+          <div
+            class="flex w-full h-full gap-4 font-bold text-8xl animate-rigtToLeft whitespace-nowrap py-[60px] xl:pb-[60px] xl:pt-[70px]">
+            <div class="footer-text-slider flex w-full items-center gap-x-[40px] whitespace-nowrap">
+              <img src="./src/img/footer-text-slider-icon.svg" alt="Icon footer"
+                class="h-15 w-15 lg:h-[60px] lg:w-[60px]" />
+              <span class="text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">Start building software</span>
+              <img src="./src/img/footer-text-slider-icon.svg" alt="Icon footer"
+                class="h-15 w-15 lg:h-[60px] lg:w-[60px]" />
+              <span class="text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">Start building software</span>
+              <img src="./src/img/footer-text-slider-icon.svg" alt="Icon footer"
+                class="h-15 w-15 lg:h-[60px] lg:w-[60px]" />
+              <span class="text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">Start building software</span>
+              <img src="./src/img/footer-text-slider-icon.svg" alt="Icon footer"
+                class="h-15 w-15 lg:h-[60px] lg:w-[60px]" />
+              <span class="text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">Start building software</span>
+            </div>
+          </div>
+        </div>
+        <div class="border-t-2 border-gray-300 px-30">
+          <div class="grid justify-center pt-20 pb-20 text-xl grid-cols-custom">
+            <div>
+              <img src="./src/img/logo.png" alt="Logo image" />
+              <p class="mt-8 text-lg">
+                Our mission is to harness the power of AI to <br />
+                solve complex business challenges & <br />decision-makers with
+                data-driven insights,<br />
+                and enhance user experiences across digital <br />
+                platforms.
+              </p>
+              <p class="mt-6 text-lg">Website: www.example.com</p>
+            </div>
+
+            <div>
+              <h1 class="font-bold">Primary Pages</h1>
+              <ul class="mt-4 space-y-4">
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Home</span>
+                </li>
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">About Us</span>
+                </li>
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Services</span>
+                </li>
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Pricing</span>
+                </li>
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Contact</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h1 class="font-bold">Utility pages</h1>
+              <ul class="mt-4 space-y-4">
+                <li>
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Signup</span>
+                </li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-primaryRed">
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Login</span>
+                </li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-primaryRed">
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">404 Not found</span>
+                </li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-primaryRed">
+                  <span class="transition-all duration-300 cursor-pointer hover:text-primaryRed">Password Reset</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex flex-col gap-y-4">
+              <h1 class="font-bold text-black capitalize">
+                Subscribe to our newsletter
+              </h1>
+              <div class="relative mt-4">
+                <input type="text" class="w-full px-2 py-3 border border-black rounded-full"
+                  placeholder="Enter your email" />
+                <div class="absolute px-7 py-2 bg-black rounded-full top-[5px] right-[7px] hover:bg-orange-500">
+                  <i class="text-xl text-white fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-t border-gray-300"></div>
+          <div class="py-8 text-center">
+            <span class="text-xl font-bold">© </span>
+            Copyright 2023, All Rights Reserved by Mthemeus
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hình nên full page -->
+    <div
+      class="bg-orange-gradient-1 blur-55 absolute -left-[10px] top-[64%] -z-[1] h-[400px] w-[400px] -rotate-[-9.022deg] rounded-[400px]">
+    </div>
+    <div
+      class="bg-orange-gradient-2 blur-55 absolute -left-[10px] top-[40%] -z-[1] h-[800px] w-[500px] -rotate-[-9.022deg] rounded-[360px]">
+    </div>
+
+  </main>
+
+  <!-- counterup  -->
+  <!-- Thư viện jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- Thư viện Jquery waypoints -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <!-- Thư viện count up -->
+  <script src="./src/js/jquery.countup.min.js"></script>
+  <!-- Count up JS  -->
+  <script>
+    $(".counter").countUp();
+  </script>
+  <!-- WowJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script src="./src/js/main.js"></script>
+</body>
+
+</html>
